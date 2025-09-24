@@ -57,15 +57,15 @@ main {
 }
 
 /* sezione di link di servizio */
-.service-links{
+.service-links {
   background-color: #0282f9;
 }
 
-.list-services ul{
+.list-services ul {
   width: 70%;
   display: flex;
-  justify-content: space-around; 
-  margin: 0 auto; 
+  justify-content: space-around;
+  margin: 0 auto;
   height: 150px;
 }
 
@@ -75,7 +75,7 @@ main {
 }
 
 .list-services img {
-  width: 50px; 
+  width: 50px;
 }
 
 .list-services a {
@@ -86,5 +86,86 @@ main {
 }
 
 
+/* stile footer */
+.bg-footer {
+  background-image: url(assets/img/footer-bg.jpg);
+}
 
+.container-links {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
 
+}
+
+.footer-column {
+  padding: 30px 0 30px 0;
+}
+
+.footer-column h4 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+}
+
+.footer-column a {
+  color: gray;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.footer-column a:hover {
+  color: white;
+}
+
+.container-links>div:not(:first-child) {
+  margin-left: 30px;
+}
+
+/* sezione registazione e social */
+.bg-registration-social {
+  background-color: rgb(56, 56, 56);
+}
+
+.container-registration-social {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0 30px 0;
+}
+
+.registration-btn button {
+  background-color: rgb(56, 56, 56);
+  color: white;
+  border: 2px solid #0282f9;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.follow-us {
+  color: #3498db;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.icons img {
+  width: 30px;
+  border-radius: 50%;
+}
