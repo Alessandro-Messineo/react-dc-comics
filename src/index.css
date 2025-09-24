@@ -7,10 +7,14 @@
 }
 
 /* stile header */
+header {
+  background-color: white;
+
+}
 
 .container-header {
   width: 70%;
-  margin: 30px auto;
+  margin: 0px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,6 +22,7 @@
 
 .logo {
   height: 80px;
+  margin: 25px 0 25px 0;
 }
 
 .container-header ul {
@@ -29,10 +34,57 @@
 .container-header a {
   text-decoration: none;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   color: gray;
 }
 
 .container-header a:hover {
-  color: #007bff;
+  color: #0282f9;
 }
+
+/* stile main */
+main {
+  background-color: black;
+  color: white;
+}
+
+.container-main {
+  width: 70%;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  height: 150px;
+}
+
+/* sezione di link di servizio */
+.service-links{
+  background-color: #0282f9;
+}
+
+.list-services ul{
+  width: 70%;
+  display: flex;
+  justify-content: space-around; 
+  margin: 0 auto; 
+  height: 150px;
+}
+
+.list-services li {
+  display: flex;
+  align-items: center;
+}
+
+.list-services img {
+  width: 50px; 
+}
+
+.list-services a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+
+
+

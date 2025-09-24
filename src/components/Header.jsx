@@ -1,5 +1,7 @@
+// importo l'immagine
 import logo from '../assets/img/dc-logo.png';
 
+// funzione per ritornare codice html
 const Header = () => {
     return (
         <header>
@@ -43,5 +45,5 @@ const Header = () => {
         </header>
     )
 }
-
+// esporto il file
 export default Header
