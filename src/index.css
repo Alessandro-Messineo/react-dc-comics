@@ -43,6 +43,17 @@ header {
 }
 
 /* stile main */
+.jumbotron {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.jumbotron img {
+  position: absolute;
+  transform: translate(0%, 0%);
+}
+
 main {
   background-color: black;
   color: white;

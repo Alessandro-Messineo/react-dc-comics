@@ -9,6 +9,9 @@ import visa from '../assets/img/buy-dc-power-visa.svg'
 const Main = () => {
     return (
         <main>
+            <div class="jumbotron">
+                <img src="../../src/assets/img/jumbotron.jpg" alt="teen titans" />
+            </div>
             <div class="container-main">
                 <div>
                     <h1>--&#62; Content goes here &#60;--</h1></div>
