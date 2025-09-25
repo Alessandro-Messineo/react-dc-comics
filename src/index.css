@@ -57,15 +57,45 @@ header {
 
 main {
   background-color: black;
-  color: white;
 }
 
 .container-main {
   width: 70%;
   margin: 0px auto;
+}
+
+.container-card {
   display: flex;
-  align-items: center;
-  height: 150px;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  gap: 20px;
+  margin: 70px 0 20px 0;
+}
+
+.card {
+  width: calc((100% - 100px) / 6);
+}
+
+.card img {
+  height: 250px; 
+  width: 100%;
+}
+
+.card h2 {
+  font-size: 15px;
+  margin-top: 10px;
+  color: white;
+}
+
+.btn {
+  background-color: #0282f9;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin: 20px auto 10px auto;
 }
 
 /* sezione di link dei servizi */
@@ -153,7 +183,7 @@ main {
 }
 
 .registration-btn button {
-  background-color: rgb(56, 56, 56);
+  background-color: transparent;
   color: white;
   border: 2px solid #0282f9;
   padding: 10px 20px;

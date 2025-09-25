@@ -1,5 +1,6 @@
-// importo Services
+// importo i file utili
 import Services from "./sub-components/Services"
+import ComicsCard from "./sub-components/ComicsCard"
 
 // funzione per ritornare codice html
 const Main = () => {
@@ -9,8 +10,7 @@ const Main = () => {
                 <img src="../../src/assets/img/jumbotron.jpg" alt="teen titans" />
             </div>
             <div class="container-main">
-                <div>
-                    <h1>--&#62; Content goes here &#60;--</h1></div>
+                    <ComicsCard />
             </div>
             {/* richiamo Services */}
             <Services />
