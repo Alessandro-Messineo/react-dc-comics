@@ -1,9 +1,38 @@
-// importo le immagini
-import facebook from '../assets/img/footer-facebook.png'
-import twitter from '../assets/img/footer-twitter.png'
-import youtube from '../assets/img/footer-youtube.png'
-import pinterest from '../assets/img/footer-pinterest.png'
-import periscope from '../assets/img/footer-periscope.png'
+// array con gli elementi di dc comics
+const dcComicsLinks = ["Characters", "Comics", "Movies", "TV", "Games", "Videos", "News"];
+// creazione array che clicla gli elementi
+const dcComicsLink = dcComicsLinks.map((link, index) => (
+    <li key={"comics" + index}>
+        <a href="">{link}</a>
+    </li >
+))
+
+// array con gli elementi di shop
+const shopLinks = ["Shop DC", "Shop DC Collectibles"];
+// creazione array che clicla gli elementi
+const shopLink = shopLinks.map((link, index) => (
+    <li key={"shop" + index}>
+        <a href="">{link}</a>
+    </li >
+))
+
+// array con gli elementi dc
+const dcLinks = ["Terms Of Use", "Privacy policy News", "Ad Choices", "Adversting", "Jobs", "Subscription", "Talent Workshops", "CPSC Certificates", "Ratings", "Shop Help", "Contact Us"];
+// creazione array che clicla gli elementi
+const dcLink = dcLinks.map((link, index) => (
+    <li key={"dc" + index}>
+        <a href="">{link}</a>
+    </li >
+))
+
+// array con gli elementi di sites
+const sitesLinks = ["DC", "MAD Magazine", "DC Kids", "DC Universe", "DC Power Visa"];
+// creazione array che clicla gli elementi
+const sitesLink = sitesLinks.map((link, index) => (
+    <li key={"dc" + index}>
+        <a href="">{link}</a>
+    </li >
+))
 
 // funzione per ritornare codice html
 const Footer = () => {
@@ -14,97 +43,26 @@ const Footer = () => {
                     <div class="footer-column">
                         <h4>DC COMICS</h4>
                         <ul>
-                            <li>
-                                <a href="">Characters</a>
-                            </li>
-                            <li>
-                                <a href="">Comics</a>
-                            </li>
-                            <li>
-                                <a href="">Movies</a>
-                            </li>
-                            <li>
-                                <a href="">TV</a>
-                            </li>
-                            <li>
-                                <a href="">Games</a>
-                            </li>
-                            <li>
-                                <a href="">Videos</a>
-                            </li>
-                            <li>
-                                <a href="">News</a>
-                            </li>
+                           {dcComicsLink}
                         </ul>
 
                         <h4>SHOP</h4>
                         <ul>
-                            <li>
-                                <a href="">Shop DC</a>
-                            </li>
-                            <li>
-                                <a href="">Shop DC Collectibles</a>
-                            </li>
+                            {shopLink}
                         </ul>
                     </div>
 
                     <div class="footer-column">
                         <h4>DC</h4>
                         <ul>
-                            <li>
-                                <a href="">Terms Of Use</a>
-                            </li>
-                            <li>
-                                <a href="">Privacy policy (New)</a>
-                            </li>
-                            <li>
-                                <a href="">Ad Choices</a>
-                            </li>
-                            <li>
-                                <a href="">Advertising</a>
-                            </li>
-                            <li>
-                                <a href="">Jobs</a>
-                            </li>
-                            <li>
-                                <a href="">Subscriptions</a>
-                            </li>
-                            <li>
-                                <a href="">Talent Workshops</a>
-                            </li>
-                            <li>
-                                <a href="">CPSC Certificates</a>
-                            </li>
-                            <li>
-                                <a href="">Ratings</a>
-                            </li>
-                            <li>
-                                <a href="">Shop Help</a>
-                            </li>
-                            <li>
-                                <a href="">Contact Us</a>
-                            </li>
+                           {dcLink}
                         </ul>
                     </div>
 
                     <div class="footer-column">
                         <h4>SITES</h4>
                         <ul>
-                            <li>
-                                <a href="">DC</a>
-                            </li>
-                            <li>
-                                <a href="">MAD Magazine</a>
-                            </li>
-                            <li>
-                                <a href="">DC Kids</a>
-                            </li>
-                            <li>
-                                <a href="">DC Universe</a>
-                            </li>
-                            <li>
-                                <a href="">DC Power Visa</a>
-                            </li>
+                           {sitesLink}
                         </ul>
                     </div>
                 </div>
@@ -118,19 +76,19 @@ const Footer = () => {
                         <span class="follow-us">FOLLOW US</span>
                         <div class="icons">
                             <a href="">
-                                <img src={facebook} alt="facebook" />
+                                <img src="../../src/assets/img/footer-facebook.png" alt="facebook" />
                             </a>
                             <a href="">
-                                <img src={twitter} alt="twitter" />
+                                <img src="../../src/assets/img/footer-twitter.png" alt="twitter" />
                             </a>
                             <a href="">
-                                <img src={youtube} alt="youtube" />
+                                <img src="../../src/assets/img/footer-youtube.png" alt="youtube" />
                             </a>
                             <a href="">
-                                <img src={pinterest} alt="pinterest" />
+                                <img src="../../src/assets/img/footer-pinterest.png" alt="pinterest" />
                             </a>
                             <a href="">
-                                <img src={periscope} alt="periscope" />
+                                <img src="../../src/assets/img/footer-periscope.png" alt="periscope" />
                             </a>
                         </div>
                     </div>

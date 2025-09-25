@@ -1,10 +1,3 @@
-// importo le immagini
-import digitalComics from '../assets/img/buy-comics-digital-comics.png'
-import merchandise from '../assets/img/buy-comics-merchandise.png'
-import subscription from '../assets/img/buy-comics-subscriptions.png'
-import shopLocator from '../assets/img/buy-comics-shop-locator.png'
-import visa from '../assets/img/buy-dc-power-visa.svg'
-
 // funzione per ritornare codice html
 const Main = () => {
     return (
@@ -20,23 +13,23 @@ const Main = () => {
                 <nav class="list-services">
                     <ul >
                         <li>
-                            <img src={digitalComics} alt="Digital Comics" />
+                            <img src="../../src/assets/img/buy-comics-digital-comics.png" alt="Digital Comics" />
                             <a href="">DIGITAL COMICS</a>
                         </li>
                         <li>
-                            <img src={merchandise} alt="DC Merchandise" />
+                            <img src="../../src/assets/img/buy-comics-merchandise.png" alt="DC Merchandise" />
                             <a href="" >DC MERCHANDISE</a>
                         </li>
                         <li>
-                            <img src={subscription} alt="Subscription" />
+                            <img src="../../src/assets/img/buy-comics-subscriptions.png" alt="Subscription" />
                             <a href="">SUBSCRIPTION</a>
                         </li>
                         <li>
-                            <img src={shopLocator} alt="Comic Shop Locator" />
+                            <img src="../../src/assets/img/buy-comics-shop-locator.png" alt="Comic Shop Locator" />
                             <a href="" >COMIC SHOP LOCATOR</a>
                         </li>
                         <li>
-                            <img src={visa} alt="DC Power Visa" />
+                            <img src="../../assets/assets/img/buy-dc-power-visa.svg" alt="DC Power Visa" />
                             <a href="" >DC POWER VISA</a>
                         </li>
                     </ul>

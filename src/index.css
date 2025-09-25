@@ -25,31 +25,32 @@ header {
   margin: 25px 0 25px 0;
 }
 
-.container-header ul {
+.navbar-header ul {
   list-style: none;
   display: flex;
   gap: 30px;
 }
 
-.container-header a {
+.navbar-header a {
   text-decoration: none;
   font-weight: bold;
   font-size: 12px;
   color: gray;
 }
 
-.container-header a:hover {
+.navbar-header a:hover {
   color: #0282f9;
 }
 
 /* stile main */
 .jumbotron {
-  height: 400px;
+  min-height: 400px;
   overflow: hidden;
   position: relative;
 }
 
 .jumbotron img {
+  width: 100%;
   position: absolute;
   transform: translate(0%, 0%);
 }
