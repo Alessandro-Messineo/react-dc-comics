@@ -4,7 +4,7 @@ const ComicsCard = () => {
     return (
         <div className="container-card">
             {ComicsArray.map((comic) => (
-                <div className="card">
+                <div className="card" key={comic.id}>
                     <img src={comic.thumb} alt={comic.series} />
                     <h2>{comic.title}</h2>
                 </div>
