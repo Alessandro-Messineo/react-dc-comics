@@ -131,6 +131,8 @@ main {
 /* stile footer */
 .bg-footer {
   background-image: url(assets/img/footer-bg.jpg);
+  background-size: cover;
+  background-position: center; 
 }
 
 .container-links {
