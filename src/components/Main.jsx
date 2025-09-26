@@ -10,6 +10,7 @@ const Main = () => {
                 <img src="../../src/assets/img/jumbotron.jpg" alt="teen titans" />
             </div>
             <div class="container-main">
+                <div class="label">CURRENT SERIES</div>
                     <ComicsCard />
             </div>
             {/* richiamo Services */}
